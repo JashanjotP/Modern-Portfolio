@@ -5,7 +5,7 @@ import EarthCanvas from "./ui/Earth";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { slideIn } from "../../../lib/utils";
+import { slideIn } from "../../lib/utils";
 
 const USER_ID = import.meta.env.VITE_USER_ID;
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
