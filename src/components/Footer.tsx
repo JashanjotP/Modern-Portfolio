@@ -123,7 +123,7 @@ const Footer = () => {
             onSubmit={handleSubmit}
             className="mt-12 flex flex-col gap-8"
           >
-            {["name", "email", "message"].map((field, index) => (
+            {["name", "email", "message"].map((field) => (
               <motion.label
                 className="flex flex-col"
                 variants={textVariant}

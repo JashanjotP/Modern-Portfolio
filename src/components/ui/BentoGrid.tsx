@@ -62,6 +62,7 @@ export const BentoGridItem = ({
     },
   };
 
+  // @ts-ignore
   const handleCopy = () => {
     const text = "";
     navigator.clipboard.writeText(text);
