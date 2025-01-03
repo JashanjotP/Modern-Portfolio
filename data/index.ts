@@ -78,7 +78,7 @@ export const projects = [
     images: [ {src: "/RAP_Ai_Roast_Screen.png" , alt:"Roast Screen"}, {src: "/RAP_Ai_HomeScreen.png", alt:"Home Screen"}, {src:"/RAP_Ai_Roasted.png", alt:"Roasted"}, {src:"/Rap_Ai_Bike.png", alt:"Bike"}, {src:"/Rap_Ai_Car.png", alt:"Car"}  ],
     techStackIcons: [{icon: "/openai.png", name: "Open AI"},{icon: "/aws-svgrepo-com.svg", name: "Amazon Web Services"},{icon: "/next.svg", name: "NextJs"}, { icon: "/re.svg", name: "React"}, {icon:"/ts.svg", name: "TypeScript"}, { icon: "/tail.svg", name: "Tailwind CSS"}],
     sourceUrl: "https://github.com/JashanjotP/rap.ai",
-    liveUrl: "https://rap-ai-three.vercel.app/",
+    liveUrl: "https://grilling-ai.jashanjotpanjrath.com/",
     devpostUrl: "https://devpost.com/software/rap-ai"
   },
   {
@@ -86,13 +86,33 @@ export const projects = [
     title: "Intelligent Tutor",
     description: "IntelligentTutor is a personalized AI-powered learning assistant designed for students. It helps you upload course materials, ask questions, and generate custom quizzes. Built with Next.js, TailwindCSS, LangChain, ChromaDB, and Cohere, it offers instant, course-specific support to boost confidence and efficiency.",
     images: [{src:"/IntelligentTutorMain.png", alt:"Intelligent Tutor"}, {src:"/IntelligentTutorLogin.png", alt:"Intelligent Tutor Login"}, {src:"/IntelligentTutorCreate.png", alt:"Intelligent Tutor Popup"}, {src:"/IntelligentTutorCreated.png", alt:"Intelligent Tutor Popup"}, {src:"/IntelligentTutorClass.png", alt:"Intelligent Tutor Class"}, {src:"/IntelligentTutorQuestion.png", alt:"Intelligent Tutor Quiz Question"}, {src:"/IntelligentTutorAnswer.png", alt:"Intelligent Tutor Answer"}],
-    techStackIcons: [{icon: "/next.svg", name: "NextJs"},{icon: "/cohere.png", name: "Cohere"}, ,{icon: "/prisma.png", name: "Prisma"}, { icon: "/sqlite.png", name: "SQLite"}, ,{icon: "/openai.png", name: "Open AI"}, ,{icon: "/chroma.png", name: "Chroma"}, ,{icon: "/langchain.png", name: "Langchain"}, ,{icon: "/c.svg", name: "Clerk"},{icon:"/ts.svg", name: "TypeScript"}, ],
+    techStackIcons: [{icon: "/next.svg", name: "NextJs"},{icon: "/cohere.png", name: "Cohere"},{icon: "/prisma.png", name: "Prisma"}, { icon: "/sqlite.png", name: "SQLite"} ,{icon: "/openai.png", name: "Open AI"}, ,{icon: "/chroma.png", name: "Chroma"}, ,{icon: "/langchain.png", name: "Langchain"}, ,{icon: "/c.svg", name: "Clerk"},{icon:"/ts.svg", name: "TypeScript"}, ],
     sourceUrl: "https://github.com/JashanjotP/Intelligent-tutor",
     liveUrl: "",
     devpostUrl: "https://devpost.com/software/intelligenttutor"
   },
   {
     id: 3,
+    title: "Discord Clone",
+    description: "An end-to-end fullstack, real-time Discord clone featuring servers, channels, video/audio calls, message editing/deleting, and member roles. Built with Socket.io, UploadThing, and Prisma using Planetscale for MySQL. It offers a stunning UI with TailwindCSS, light/dark modes, and mobile responsiveness.",
+    images: [{src:"/DiscordMain.png", alt:"Discord Main"}],
+    techStackIcons: [{icon: "/next.svg", name: "Nextjs"}, {icon:"/c.svg", name:"Clerk"}, {icon:"/Socket-io.png", name: "Socket.io"}, {icon:"/mysql.jpg", name: "MySQL"}, {icon: "/prisma.png", name: "Prisma"}, {icon: "/ts.svg", name: "TypeScript"},  {icon: "/tail.svg", name: "Tailwind CSS"}],
+    sourceUrl: "https://github.com/JashanjotP/Discord-Clone",
+    liveUrl: "",
+    devpostUrl: ""
+  },
+  {
+    id: 4,
+    title: "Spotify Clone",
+    description: "A music streaming platform built with Next.js, Supabase, Stripe API, and TailwindCSS. It includes secure authentication, subscription management, and media uploads. Users can explore music, manage playlists, and enjoy a seamless, responsive UI with advanced playback controls. Test credentials: Email: demo07213@gmail.com, Password: Thisisademo",
+    images: [{src:"/SpotifyMain.png", alt:"Spotify Main"},{src:"/SpotifyLogin.png", alt:"Spotify Login"}, {src:"/SpotifyLiked.png", alt:"Spotify Liked Page"}, {src:"/SpotifyAccountSettings.png", alt:"Spotify Account Settings"}, {src:"/SpotifySearch.png", alt:"Spotify Search"}, {src:"/SpotifySong.png", alt:"Spotify Song"}, {src:"/SpotifySongUpload.png", alt:"Spotify Song Upload"},  {src:"/SpotifyStripeScreen.png", alt:"Spotify Stripe Screen"}],
+    techStackIcons: [{icon: "/next.svg", name: "Nextjs"}, {icon:"/supabase.jpg", name:"Supabase"}, {icon:"/stripe.jpeg", name:"Stripe API"}, {icon:"/Postgresql.png", name:"PostgreSQL"}, {icon: "/ts.svg", name: "TypeScript"}, {icon: "/tail.svg", name: "Tailwind CSS"}],
+    sourceUrl: "https://github.com/JashanjotP/spotify-clone",
+    liveUrl: "https://spotify.jashanjotpanjrath.com",
+    devpostUrl: ""
+  },
+  {
+    id: 5,
     title: "8Ball Pool Simulation",
     description: "8BallPool is a full-stack web application that simulates a pool game with realistic physics and engaging gameplay. Featuring a seamless user experience, it combines backend and frontend technologies to deliver an interactive and entertaining digital pool game experience.",
     images: [{src:"/8ballhome.png", alt:"8Ball Pool Main"},{src:"/8ballpoolintial.png", alt:"8Ball Pool intial"}, {src:"/8ballpoolturns.png", alt:"8Ball turns"}, {src:"/8ballpoolend.png", alt:"8Ball Pool End"}],
@@ -102,7 +122,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 4,
+    id: 6,
     title: "RESTful API",
     description: "A feature-rich REST API built with Node.js, Express, TypeScript, and MongoDB. API provides full CRUD functionality, secured with cookie-based authentication. Designed with controllers and middleware for clean, modular architecture, ensuring scalability and maintainability.",
     images: [{src:"/rest.jpg", alt:"Restful API"}],
@@ -112,7 +132,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 5,
+    id: 7,
     title: "Shell",
     description: "A custom Java-based shell with built-in commands like cd, echo, and ls, external command execution, tab completion, command history, and piping support. Leveraging JLine for robust terminal handling, it offers a seamless command-line interface for efficient task execution.",
     images: [{src:"/ShellMain.png", alt:"Custom Shell Main"},{src:"/ShellPipe.png", alt:"Custom Shell Pipe Command"}, {src:"/ShellGit.png", alt:"Custom Shell Git Command"}, {src:"/ShellTab.png", alt:"Custom Shell Tab Command"}],
@@ -122,7 +142,17 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 6,
+    id: 8,
+    title: "Legacy Portfolio Website",
+    description: "My initial portfolio website was built using Vite, React, TailwindCSS, and TypeScript, emphasizing speed, efficiency, and clean design. It effectively showcased my projects, skills, and professional journey in a structured and visually appealing manner. While it served as a strong foundation for my online presence, it lacked certain features and modern enhancements.",
+    images: [{src:"/PortfolioMain.png", alt:"Portfolio Main"},{src:"/PortfolioAbout.png", alt:"Portfolio About Section"}, {src:"/PortfolioSkills.png", alt:"Portfolio Skills"} ,{src:"/PortfolioProjects.png", alt:"Portfolio Projects"}, {src:"/PortfolioContact.png", alt:"Portfolio Contact"}],
+    techStackIcons: [{icon: "/re.svg", name: "React"}, { icon: "/tail.svg", name: "Tailwind CSS"}, {icon:"/ts.svg", name: "TypeScript"}, {icon: "/vite.svg", name: "Vite"}],
+    sourceUrl: "https://github.com/JashanjotP/Portfolio-Website",
+    liveUrl: "https://jashanjotp.github.io/Portfolio-Website/",
+    devpostUrl: ""
+  },
+  {
+    id: 9,
     title: "Weather Application",
     description: "A responsive weather app built with HTML, CSS, and JS using the OpenWeather API. It shows weather for the current or searched location with autocomplete. Features include detailed metrics like temperature, wind speed/direction, air quality, pressure, and visibility for accurate insights.",
     images: [{src:"/WeatherAppMain.png", alt:"Weather App Main"},{src:"/WeatherAppSearch.png", alt:"Weather App Search"}, {src:"/WeatherAppLA.png", alt:"Weather App Los Angeles"}, {src:"/WeatherApp404.png", alt:"Weather App Not Found"}],
@@ -132,7 +162,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 7,
+    id: 10,
     title: "Sorting Visualizer",
     description: "This project was built using React.js and Tailwind CSS. It allows you to visualize the sorting process of various algorithms such as Bubble Sort, Merge Sort, Quick Sort, and many more. The project was built to help students understand the sorting process better.",
     images: [ {src:"/SortingVisualizer.svg", alt: "Sorting Visualizer HomeScreen"}],
@@ -142,7 +172,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 8,
+    id: 11,
     title: "To-Do Application",
     description: "The To-Do List App lets users create, update, delete, and mark tasks as complete. It saves data using local storage for persistence. This project highlights CRUD functionality, dynamic UI updates, and responsive design using React, Vite, and TypeScript.",
     images: [{src:"/ToDoListMain.png", alt:"ToDo List Page"},{src:"/ToDoListUpdate.png", alt:"ToDo List Update"}, {src:"/ToDoListLocal.png", alt:"ToDo List Local Storage"}],
@@ -153,7 +183,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 12,
     title: "Calculator",
     description: "A simple and intuitive calculator app built with HTML, CSS, and JavaScript. Perform basic arithmetic operations like addition, subtraction, multiplication, and division. Features a sleek, responsive design for seamless usability on both desktop and mobile devices.",
     images: [{src:"/calculator.png", alt:"Calculator App"}],
