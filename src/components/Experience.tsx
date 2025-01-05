@@ -182,7 +182,7 @@ const Experience: React.FC = () => {
           title="View My Resume"
           icon={<GrContactInfo />}
           position="right"
-          handleClick={() => window.open("/Jashanjot_Resume_Updated.pdf", "_blank")}
+          handleClick={() => window.open("/Jashanjot_s_Resume.pdf", "_blank")}
         />
       </motion.div>
     </div>
