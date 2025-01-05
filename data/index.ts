@@ -102,6 +102,16 @@ export const projects = [
     devpostUrl: ""
   },
   {
+    id: 5,
+    title: "Home Server",
+    description: "Transformed an old Windows PC into an Ubuntu-based home server hosting applications and databases using Docker. Configured Nginx as a reverse proxy and integrated Cloudflare for security and performance. Built a scalable, self-hosted cloud infrastructure, showcasing skills in server management, containerization, and networking.",
+    images: [{src:"/HomeServer.png", alt:"An image of my Home Server"}],
+    techStackIcons: [{icon: "/dock.svg", name: "Docker"}, {icon: "/ubuntu.png", name: "Ubuntu Server"}, {icon:"/nginx.svg", name:"Nginx"}, {icon:"/cloudflare.png", name:"Cloudflare"}],
+    sourceUrl: "",
+    liveUrl: "",
+    devpostUrl: ""
+  },
+  {
     id: 4,
     title: "Discord Clone",
     description: "An end-to-end fullstack, real-time Discord clone featuring servers, channels, video/audio calls, message editing/deleting, and member roles. Built with Socket.io, UploadThing, and Prisma using Planetscale for MySQL. It offers a stunning UI with TailwindCSS, light/dark modes, and mobile responsiveness.",
