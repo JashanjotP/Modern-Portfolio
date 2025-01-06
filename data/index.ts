@@ -102,17 +102,17 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 5,
+    id: 4,
     title: "Home Server",
     description: "Transformed an old Windows PC into an Ubuntu-based home server hosting applications and databases using Docker. Configured Nginx as a reverse proxy and integrated Cloudflare for security and performance. Built a scalable, self-hosted cloud infrastructure, showcasing skills in server management, containerization, and networking.",
-    images: [{src:"/HomeServer.png", alt:"An image of my Home Server"}],
+    images: [{src:"/HomeServer.png", alt:"An image of my Home Server"}, {src:"/HomeServerNeofetch.jpg", alt:"An image of my Home Server running neofetch"}, {src:"/HomeServerBytop.jpg", alt:"An image of my Home Server"}],
     techStackIcons: [{icon: "/dock.svg", name: "Docker"}, {icon: "/ubuntu.png", name: "Ubuntu Server"}, {icon:"/nginx.svg", name:"Nginx"}, {icon:"/cloudflare.png", name:"Cloudflare"}],
     sourceUrl: "",
     liveUrl: "",
     devpostUrl: ""
   },
   {
-    id: 4,
+    id: 5,
     title: "Discord Clone",
     description: "An end-to-end fullstack, real-time Discord clone featuring servers, channels, video/audio calls, message editing/deleting, and member roles. Built with Socket.io, UploadThing, and Prisma using Planetscale for MySQL. It offers a stunning UI with TailwindCSS, light/dark modes, and mobile responsiveness.",
     images: [{src:"/DiscordMain.png", alt:"Discord Main"}],
@@ -122,7 +122,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 5,
+    id: 6,
     title: "Spotify Clone",
     description: "A music streaming platform built with Next.js, Supabase, Stripe API, and TailwindCSS. It includes secure authentication, subscription management, and media uploads. Users can explore music, manage playlists, and enjoy a seamless, responsive UI with advanced playback controls. Test credentials: Email: demo07213@gmail.com, Password: Thisisademo",
     images: [{src:"/SpotifyMain.png", alt:"Spotify Main"},{src:"/SpotifyLogin.png", alt:"Spotify Login"}, {src:"/SpotifyLiked.png", alt:"Spotify Liked Page"}, {src:"/SpotifyAccountSettings.png", alt:"Spotify Account Settings"}, {src:"/SpotifySearch.png", alt:"Spotify Search"}, {src:"/SpotifySong.png", alt:"Spotify Song"}, {src:"/SpotifySongUpload.png", alt:"Spotify Song Upload"},  {src:"/SpotifyStripeScreen.png", alt:"Spotify Stripe Screen"}],
@@ -132,7 +132,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 6,
+    id: 7,
     title: "8Ball Pool Simulation",
     description: "8BallPool is a full-stack web application that simulates a pool game with realistic physics and engaging gameplay. Featuring a seamless user experience, it combines backend and frontend technologies to deliver an interactive and entertaining digital pool game experience.",
     images: [{src:"/8ballhome.png", alt:"8Ball Pool Main"},{src:"/8ballpoolintial.png", alt:"8Ball Pool intial"}, {src:"/8ballpoolturns.png", alt:"8Ball turns"}, {src:"/8ballpoolend.png", alt:"8Ball Pool End"}],
@@ -142,7 +142,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 7,
+    id: 8,
     title: "RESTful API",
     description: "A feature-rich REST API built with Node.js, Express, TypeScript, and MongoDB. API provides full CRUD functionality, secured with cookie-based authentication. Designed with controllers and middleware for clean, modular architecture, ensuring scalability and maintainability.",
     images: [{src:"/rest.jpg", alt:"Restful API"}],
@@ -152,7 +152,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 8,
+    id: 9,
     title: "Shell",
     description: "A custom Java-based shell with built-in commands like cd, echo, and ls, external command execution, tab completion, command history, and piping support. Leveraging JLine for robust terminal handling, it offers a seamless command-line interface for efficient task execution.",
     images: [{src:"/ShellMain.png", alt:"Custom Shell Main"},{src:"/ShellPipe.png", alt:"Custom Shell Pipe Command"}, {src:"/ShellGit.png", alt:"Custom Shell Git Command"}, {src:"/ShellTab.png", alt:"Custom Shell Tab Command"}],
@@ -162,7 +162,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 9,
+    id: 10,
     title: "Legacy Portfolio Website",
     description: "My initial portfolio website was built using Vite, React, TailwindCSS, and TypeScript, emphasizing speed, efficiency, and clean design. It effectively showcased my projects, skills, and professional journey in a structured and visually appealing manner. While it served as a strong foundation for my online presence, it lacked certain features and modern enhancements.",
     images: [{src:"/PortfolioMain.png", alt:"Portfolio Main"},{src:"/PortfolioAbout.png", alt:"Portfolio About Section"}, {src:"/PortfolioSkills.png", alt:"Portfolio Skills"} ,{src:"/PortfolioProjects.png", alt:"Portfolio Projects"}, {src:"/PortfolioContact.png", alt:"Portfolio Contact"}],
@@ -172,7 +172,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 10,
+    id: 11,
     title: "Weather Application",
     description: "A responsive weather app built with HTML, CSS, and JS using the OpenWeather API. It shows weather for the current or searched location with autocomplete. Features include detailed metrics like temperature, wind speed/direction, air quality, pressure, and visibility for accurate insights.",
     images: [{src:"/WeatherAppMain.png", alt:"Weather App Main"},{src:"/WeatherAppSearch.png", alt:"Weather App Search"}, {src:"/WeatherAppLA.png", alt:"Weather App Los Angeles"}, {src:"/WeatherApp404.png", alt:"Weather App Not Found"}],
@@ -182,7 +182,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 11,
+    id: 12,
     title: "Sorting Visualizer",
     description: "This project was built using React.js and Tailwind CSS. It allows you to visualize the sorting process of various algorithms such as Bubble Sort, Merge Sort, Quick Sort, and many more. The project was built to help students understand the sorting process better.",
     images: [ {src:"/SortingVisualizer.svg", alt: "Sorting Visualizer HomeScreen"}],
@@ -192,7 +192,7 @@ export const projects = [
     devpostUrl: ""
   },
   {
-    id: 12,
+    id: 13,
     title: "To-Do Application",
     description: "The To-Do List App lets users create, update, delete, and mark tasks as complete. It saves data using local storage for persistence. This project highlights CRUD functionality, dynamic UI updates, and responsive design using React, Vite, and TypeScript.",
     images: [{src:"/ToDoListMain.png", alt:"ToDo List Page"},{src:"/ToDoListUpdate.png", alt:"ToDo List Update"}, {src:"/ToDoListLocal.png", alt:"ToDo List Local Storage"}],
@@ -203,7 +203,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 14,
     title: "Calculator",
     description: "A simple and intuitive calculator app built with HTML, CSS, and JavaScript. Perform basic arithmetic operations like addition, subtraction, multiplication, and division. Features a sleek, responsive design for seamless usability on both desktop and mobile devices.",
     images: [{src:"/calculator.png", alt:"Calculator App"}],
